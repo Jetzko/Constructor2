@@ -3,7 +3,7 @@ public class Teacher {
     public  Teacher (String teacherName) {
       System.out.println(teacherName + " is Here!");
     }
-    public void assignFinalGrade(String alumn, int finalGrade){
-        System.out.println(alumn + "'s final grade is " + finalGrade);
+    public void assignFinalGrade(Student student, int finalGrade){
+        System.out.println(student + "'s final grade is " + finalGrade);
     }
 }
